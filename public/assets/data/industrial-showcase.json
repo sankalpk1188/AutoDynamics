@@ -1,0 +1,119 @@
+{
+  "hero": {
+    "eyebrow": "Industrial Products",
+    "title": "Engineered solutions for healthcare equipment",
+    "lead": "Scroll to explore modular hospital bed planks, frames, and tray systems — designed for production reliability and patient-care applications."
+  },
+  "cta": {
+    "title": "Ready to develop your industrial program?",
+    "text": "Share your CAD data and volume requirements — our team will respond with a proposal aligned to quality, tooling, and delivery expectations.",
+    "button": "Upload Your Design"
+  },
+  "svgViews": ["hospital-bed"],
+  "svgPrefix": "industrial",
+  "categories": [
+    { "id": "hospital-bed", "label": "Hospital Bed", "summary": "Modular planks, frames, and tray systems." }
+  ],
+  "vehicleImages": {
+    "hospital-bed": "assets/images/industrial/hospital-bed-hero.png"
+  },
+  "steps": [
+    {
+      "id": "hospital-bed-overview",
+      "category": "hospital-bed",
+      "type": "overview",
+      "componentId": null,
+      "title": "Hospital Bed",
+      "name": "Modular bed assembly",
+      "description": "Explore injection-molded hospital bed modules — plank tops, base frames, and tray systems engineered for healthcare equipment programs.",
+      "productImage": "assets/images/industrial/products/product-hospital-bed-base-frame.png",
+      "svg": "hospital-bed",
+      "camera": { "scale": 1, "x": 0, "y": 0 },
+      "highlights": []
+    },
+    {
+      "id": "foot-plank-top-f1",
+      "category": "hospital-bed",
+      "type": "component",
+      "componentId": "foot-plank-top-f1",
+      "title": "Hospital Bed",
+      "name": "Foot Plank Top F-1",
+      "description": "Foot-section plank top with contoured surface and raised edge profiles for patient support.",
+      "location": "Foot end — top plank assembly",
+      "productImage": "assets/images/industrial/products/product-foot-plank-top-f1.png",
+      "svg": "hospital-bed",
+      "camera": { "scale": 1.08, "x": -3, "y": 0 },
+      "highlights": ["foot-plank-top-f1"]
+    },
+    {
+      "id": "x-ray-tray",
+      "category": "hospital-bed",
+      "type": "component",
+      "componentId": "x-ray-tray",
+      "title": "Hospital Bed",
+      "name": "X Ray Tray",
+      "description": "Radiolucent X-ray tray module for imaging compatibility with slim profile and edge retention features.",
+      "location": "Head end — vertical tray mount",
+      "productImage": "assets/images/industrial/products/product-x-ray-tray.png",
+      "svg": "hospital-bed",
+      "camera": { "scale": 1.1, "x": 4, "y": -2 },
+      "highlights": ["x-ray-tray"]
+    },
+    {
+      "id": "abdomen-plank-top",
+      "category": "hospital-bed",
+      "type": "component",
+      "componentId": "abdomen-plank-top",
+      "title": "Hospital Bed",
+      "name": "7 in Abdomen Plank Top",
+      "description": "Seven-inch abdomen plank top with recessed contour for comfort and module alignment.",
+      "location": "Mid bed — abdomen plank top",
+      "productImage": "assets/images/industrial/products/product-abdomen-plank-top.png",
+      "svg": "hospital-bed",
+      "camera": { "scale": 1.08, "x": 0, "y": 0 },
+      "highlights": ["abdomen-plank-top"]
+    },
+    {
+      "id": "abdomen-base-frame",
+      "category": "hospital-bed",
+      "type": "component",
+      "componentId": "abdomen-base-frame",
+      "title": "Hospital Bed",
+      "name": "7 in Abdomen Base Frame",
+      "description": "Abdomen base frame with integrated bosses and through-holes for plank retention and actuator interfaces.",
+      "location": "Mid bed — abdomen base frame",
+      "productImage": "assets/images/industrial/products/product-abdomen-base-frame.png",
+      "svg": "hospital-bed",
+      "camera": { "scale": 1.1, "x": 2, "y": 1 },
+      "highlights": ["abdomen-base-frame"]
+    },
+    {
+      "id": "thigh-plank-top-f1",
+      "category": "hospital-bed",
+      "type": "component",
+      "componentId": "thigh-plank-top-f1",
+      "title": "Hospital Bed",
+      "name": "10 in Thigh Plank Top F-1",
+      "description": "Ten-inch thigh plank top with end tabs and oval surface detailing for thigh support.",
+      "location": "Mid bed — thigh section plank",
+      "productImage": "assets/images/industrial/products/product-thigh-plank-top-f1.png",
+      "svg": "hospital-bed",
+      "camera": { "scale": 1.07, "x": -2, "y": 0 },
+      "highlights": ["thigh-plank-top-f1"]
+    },
+    {
+      "id": "head-plank-top",
+      "category": "hospital-bed",
+      "type": "component",
+      "componentId": "head-plank-top",
+      "title": "Hospital Bed",
+      "name": "Head Plank Top",
+      "description": "Head-section plank top frame with raised side flanges for headboard integration and upper-body support.",
+      "location": "Head end — plank top assembly",
+      "productImage": "assets/images/industrial/products/product-head-plank-top.png",
+      "svg": "hospital-bed",
+      "camera": { "scale": 1.1, "x": 5, "y": -2 },
+      "highlights": ["head-plank-top"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+:root {
+  --theme-color1: #ff6a3b;
+  --theme-color2: #111111;
+  --theme-color3: #fcf7f3;
+  --theme-color1-rgb: 255, 106, 59;
+  --theme-color2-rgb: 17, 17, 17;
+  --theme-color3-rgb: 252, 247, 243;
+  --theme-color1-text-color: #fff;
+  --theme-color2-text-color: #fff;
+  --theme-color3-text-color: #fff;
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="as-highlight-exterior" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5ec8ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0082c6" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="as-glow-exterior" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g id="vehicle-base" opacity="0.35">
+    <path fill="none" stroke="#3d5a73" stroke-width="1.2" d="M60 340 L120 300 L200 270 L360 250 L520 255 L660 280 L740 320 L760 360 L720 390 L560 400 L280 395 L120 380 L70 360 Z"/>
+    <path fill="none" stroke="#2a4560" stroke-width="0.8" d="M200 270 L200 390 M360 250 L360 395 M520 255 L520 398"/>
+    <ellipse fill="none" stroke="#2a4560" stroke-width="1" cx="180" cy="385" rx="48" ry="48"/>
+    <ellipse fill="none" stroke="#2a4560" stroke-width="1" cx="620" cy="388" rx="52" ry="50"/>
+    <path fill="none" stroke="#2a4560" stroke-width="0.7" d="M120 300 Q200 200 360 180 Q520 175 660 210 Q720 240 740 300"/>
+  </g>
+  <g id="footstep" class="as-component" data-component="footstep">
+    <ellipse class="as-highlight-region" cx="576" cy="340" rx="50" ry="28"/>
+    <path class="as-outline" d="M530 322 L622 318 L628 358 L524 362 Z"/>
+    <line class="as-connector" x1="576" y1="340" x2="650" y2="340"/>
+    <circle class="as-hotspot" cx="576" cy="340" r="7"/>
+    <circle class="as-hotspot-ring" cx="576" cy="340" r="14"/>
+  </g>
+  <g id="plenum-applique" class="as-component" data-component="plenum-applique">
+    <ellipse class="as-highlight-region" cx="304" cy="190" rx="52" ry="26"/>
+    <path class="as-outline" d="M258 176 L350 170 L356 204 L252 210 Z"/>
+    <line class="as-connector" x1="304" y1="190" x2="230" y2="190"/>
+    <circle class="as-hotspot" cx="304" cy="190" r="7"/>
+    <circle class="as-hotspot-ring" cx="304" cy="190" r="14"/>
+  </g>
+  <g id="sun-roof" class="as-component" data-component="sun-roof">
+    <ellipse class="as-highlight-region" cx="402" cy="152" rx="50" ry="16"/>
+    <path class="as-outline" d="M358 144 L452 139 L456 162 L354 167 Z"/>
+    <line class="as-connector" x1="402" y1="152" x2="402" y2="72"/>
+    <polygon class="as-connector as-connector-arrow" points="402,58 394,74 410,74" fill="#5ec8ff" stroke="none"/>
+    <circle class="as-hotspot" cx="402" cy="72" r="7"/>
+    <circle class="as-hotspot-ring" cx="402" cy="72" r="14"/>
+  </g>
+</svg>

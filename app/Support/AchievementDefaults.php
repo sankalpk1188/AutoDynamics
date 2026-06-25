@@ -1,0 +1,241 @@
+<?php
+
+namespace App\Support;
+
+class AchievementDefaults
+{
+    public static function items(): array
+    {
+        return [
+            [
+                'type' => 'certification',
+                'title' => 'IATF 16949:2016 Certification',
+                'image' => 'iatf-16949-2016-certificate.png',
+                'alt' => 'IATF 16949:2016 certificate for Autodynamic Technologies and Solutions Pvt Ltd',
+                'description' => 'IATF 16949:2016 quality management certification for manufacture of injection molded parts and composite parts and related assemblies.',
+                'identifier' => null,
+                'sort_order' => 1,
+                'status' => 1,
+            ],
+            [
+                'type' => 'certification',
+                'title' => 'ISO 9001:2015 Certification',
+                'image' => 'iso-9001-2015-certificate.png',
+                'alt' => 'ISO 9001:2015 certificate for Autodynamic Technologies and Solutions Pvt Ltd',
+                'description' => 'ISO 9001:2015 quality management system certification for manufacture of injection molded parts and composite parts and related assemblies.',
+                'identifier' => null,
+                'sort_order' => 2,
+                'status' => 1,
+            ],
+            [
+                'type' => 'certification',
+                'title' => 'ISO 14001:2015 Certification',
+                'image' => 'iso-14001-2015-certificate.png',
+                'alt' => 'ISO 14001:2015 certificate for Autodynamic Technologies and Solutions Pvt Ltd',
+                'description' => 'ISO 14001:2015 environmental management system certification for manufacture of injection molded plastic components, composites and assemblies.',
+                'identifier' => null,
+                'sort_order' => 3,
+                'status' => 1,
+            ],
+            [
+                'type' => 'award',
+                'title' => 'ACMA Excellence Award 2025 — New Product Design & Development',
+                'image' => 'acma-new-product-design-2025.png',
+                'alt' => 'ACMA Excellence Awards 2025 certificate of merit for new product design and development',
+                'description' => 'ACMA Excellence Awards 2025 — Certificate of Merit for excellence in new product design, development and localization.',
+                'identifier' => null,
+                'sort_order' => 4,
+                'status' => 1,
+            ],
+            [
+                'type' => 'award',
+                'title' => 'ACMA Excellence Award 2025 — Manufacturing',
+                'image' => 'acma-excellence-manufacturing-2025.png',
+                'alt' => 'ACMA Excellence Awards 2025 certificate of merit for manufacturing',
+                'description' => 'ACMA Excellence Awards 2025 — Certificate of Merit for excellence in manufacturing.',
+                'identifier' => null,
+                'sort_order' => 5,
+                'status' => 1,
+            ],
+            [
+                'type' => 'award',
+                'title' => 'ACMA 16th Kaizen Competition — Second Position',
+                'image' => 'acma-kaizen-competition-2025.png',
+                'alt' => 'ACMA Western Region 16th Kaizen Competition second position award',
+                'description' => 'Second position for best performance at the ACMA Western Region 16th Kaizen Competition, December 2025.',
+                'identifier' => null,
+                'sort_order' => 6,
+                'status' => 1,
+            ],
+            [
+                'type' => 'award',
+                'title' => 'Altair Enlighten Award 2023 — Sustainable Solutions',
+                'image' => 'altair-enlighten-award-2023.png',
+                'alt' => 'Altair Enlighten Award 2023 finalist certificate for sustainable product innovation',
+                'description' => 'Altair Enlighten Award 2023 finalist for sustainable product seat pan metal-to-plastic conversion.',
+                'identifier' => null,
+                'sort_order' => 7,
+                'status' => 1,
+            ],
+            [
+                'type' => 'award',
+                'title' => 'India 5000 Best MSME Award 2024',
+                'image' => 'india-5000-best-msme-2024.png',
+                'alt' => 'India 5000 Best MSME Awards 2024 winner trophy for quality excellence',
+                'description' => 'Winner of India 5000 Best MSME Awards 2024 for quality excellence.',
+                'identifier' => null,
+                'sort_order' => 8,
+                'status' => 1,
+            ],
+            [
+                'type' => 'award',
+                'title' => 'Make in India — Most Innovative Exporter 2024',
+                'image' => 'make-in-india-innovative-exporter-2024.png',
+                'alt' => 'Make in India Initiative Award 2024 for most innovative exporter',
+                'description' => 'Make in India Initiative Award 2024 — Most Innovative Exporter, presented by MSME Chamber of Commerce and Industry of India.',
+                'identifier' => null,
+                'sort_order' => 9,
+                'status' => 1,
+            ],
+            [
+                'type' => 'award',
+                'title' => 'PCPA Innovative Company of the Year 2023',
+                'image' => 'pcpa-innovative-company-2023.png',
+                'alt' => 'PCPA Polymer Icon Awards 2023 innovative company of the year trophy',
+                'description' => 'Innovative Company of the Year 2023 at the Pimpri Chinchwad Plastic Association Polymer Icon Awards.',
+                'identifier' => null,
+                'sort_order' => 10,
+                'status' => 1,
+            ],
+            [
+                'type' => 'award',
+                'title' => 'Dun & Bradstreet Startup Trailblazers 2024',
+                'image' => 'dun-bradstreet-startup-trailblazers-2024.png',
+                'alt' => 'Dun and Bradstreet Startup Trailblazers 2024 award',
+                'description' => 'Recognized as a Startup Trailblazer by Dun & Bradstreet in 2024.',
+                'identifier' => null,
+                'sort_order' => 11,
+                'status' => 1,
+            ],
+            [
+                'type' => 'award',
+                'title' => 'Grupo Antolin Best Supplier 2022–23',
+                'image' => 'grupo-antolin-best-supplier-2022-23.png',
+                'alt' => 'Grupo Antolin Chakan best supplier award 2022-23',
+                'description' => 'Best Supplier 2022–23 award from Grupo Antolin Chakan Pvt. Ltd.',
+                'identifier' => null,
+                'sort_order' => 12,
+                'status' => 1,
+            ],
+            [
+                'type' => 'award',
+                'title' => 'IAC Appreciation Certificate 2025',
+                'image' => 'iac-appreciation-2025.png',
+                'alt' => 'IAC International Automotive India appreciation certificate February 2025',
+                'description' => 'IAC Chakan-1 appreciation for excellent component supplies and quality performance in 2024.',
+                'identifier' => null,
+                'sort_order' => 13,
+                'status' => 1,
+            ],
+            [
+                'type' => 'award',
+                'title' => 'ARAI Automotive Materials & Manufacturing 2023',
+                'image' => 'arai-materials-manufacturing-2023.png',
+                'alt' => 'ARAI International Conference on Automotive Materials and Manufacturing 2023 appreciation award',
+                'description' => 'Appreciation award for significant contribution at the ARAI International Conference on Automotive Materials & Manufacturing 2023.',
+                'identifier' => null,
+                'sort_order' => 14,
+                'status' => 1,
+            ],
+            [
+                'type' => 'award',
+                'title' => 'MOTOTECH Pune 2025 — Esteemed Speaker',
+                'image' => 'mototech-pune-2025-speaker.png',
+                'alt' => 'MOTOTECH 25 Pune esteemed speaker participation award',
+                'description' => 'Token of appreciation for valuable participation as esteemed speaker at MOTOTECH Pune 2025.',
+                'identifier' => null,
+                'sort_order' => 15,
+                'status' => 1,
+            ],
+            [
+                'type' => 'award',
+                'title' => 'MCCIA Certificate of Associateship 2025–26',
+                'image' => 'mccia-associateship-2025-26.png',
+                'alt' => 'MCCIA certificate of associateship 2025-2026',
+                'description' => 'Certificate of Associateship from the Mahratta Chamber of Commerce, Industries and Agriculture for 2025–26.',
+                'identifier' => null,
+                'sort_order' => 16,
+                'status' => 1,
+            ],
+            [
+                'type' => 'award',
+                'title' => 'BOLE Seminar 2024 — Royal Supporting Customer',
+                'image' => 'bole-royal-supporting-customer-2024.png',
+                'alt' => 'BOLE Seminar 2024 royal supporting customer award',
+                'description' => 'Royal Supporting Customer award at BOLE Seminar 2024 — New Product & Technology.',
+                'identifier' => null,
+                'sort_order' => 17,
+                'status' => 1,
+            ],
+            [
+                'type' => 'award',
+                'title' => 'Zero Defect Supplier — BEL',
+                'image' => 'zero-defect-supplier-bel.jpg',
+                'alt' => 'Zero Defect Supplier award from Bharat Electronics Limited',
+                'description' => 'Recognized as a Zero Defect Supplier by Bharat Electronics Limited (BEL).',
+                'identifier' => null,
+                'sort_order' => 18,
+                'status' => 1,
+            ],
+            [
+                'type' => 'award',
+                'title' => 'IAC Award',
+                'image' => 'IAC_award.png',
+                'alt' => 'IAC supplier excellence award for Autodynamics',
+                'description' => 'IAC supplier excellence award recognizing manufacturing and quality performance.',
+                'identifier' => null,
+                'sort_order' => 19,
+                'status' => 1,
+            ],
+            [
+                'type' => 'patent',
+                'title' => 'Patent',
+                'image' => 'patent.jpg',
+                'alt' => 'Patent certificate held by Autodynamic Technologies',
+                'description' => 'Intellectual property patent held by Autodynamic Technologies & Solutions Pvt. Ltd.',
+                'identifier' => null,
+                'sort_order' => 20,
+                'status' => 1,
+            ],
+            [
+                'type' => 'design_registration',
+                'title' => 'Design Registration — Battery Hold Down Tray (492630-001)',
+                'image' => 'design-certificate-492630-001.png',
+                'alt' => 'Government of India design registration certificate 492630-001 for Battery Hold Down Tray',
+                'description' => 'Registered design under the Designs Act, 2000 (India) for Battery Hold Down Tray. Design No. 492630-001, Class 13-02.',
+                'identifier' => '492630-001',
+                'sort_order' => 21,
+                'status' => 1,
+            ],
+        ];
+    }
+
+    public static function displayItems(): array
+    {
+        return array_map(function (array $item) {
+            $display = [
+                'type' => $item['type'],
+                'title' => $item['title'],
+                'image' => 'assets/images/awards/' . $item['image'],
+                'alt' => $item['alt'] ?? $item['title'],
+                'description' => $item['description'] ?? '',
+            ];
+
+            if (!empty($item['identifier'])) {
+                $display['identifier'] = $item['identifier'];
+            }
+
+            return $display;
+        }, self::items());
+    }
+}

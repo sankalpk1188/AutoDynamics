@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="as-highlight-hospital-bed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5ec8ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0082c6" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <g id="vehicle-base" opacity="0.3">
+    <path fill="none" stroke="#3d5a73" stroke-width="1.2" d="M80 280 L720 280 L700 360 L100 360 Z"/>
+    <path fill="none" stroke="#2a4560" stroke-width="0.8" d="M120 280 L120 360 M680 280 L680 360"/>
+  </g>
+  <g id="foot-plank-top-f1" class="as-component" data-component="foot-plank-top-f1">
+    <ellipse class="as-highlight-region" cx="640" cy="260" rx="44" ry="28"/>
+    <path class="as-outline" d="M600 244 L680 240 L686 276 L594 280 Z"/>
+    <circle class="as-hotspot" cx="640" cy="260" r="7"/>
+    <circle class="as-hotspot-ring" cx="640" cy="260" r="14"/>
+  </g>
+  <g id="x-ray-tray" class="as-component" data-component="x-ray-tray">
+    <ellipse class="as-highlight-region" cx="112" cy="110" rx="36" ry="40"/>
+    <path class="as-outline" d="M88 72 L136 68 L140 148 L84 152 Z"/>
+    <circle class="as-hotspot" cx="112" cy="110" r="7"/>
+    <circle class="as-hotspot-ring" cx="112" cy="110" r="14"/>
+  </g>
+  <g id="abdomen-plank-top" class="as-component" data-component="abdomen-plank-top">
+    <ellipse class="as-highlight-region" cx="400" cy="200" rx="48" ry="26"/>
+    <path class="as-outline" d="M356 186 L444 182 L450 214 L350 218 Z"/>
+    <circle class="as-hotspot" cx="400" cy="200" r="7"/>
+    <circle class="as-hotspot-ring" cx="400" cy="200" r="14"/>
+  </g>
+  <g id="abdomen-base-frame" class="as-component" data-component="abdomen-base-frame">
+    <ellipse class="as-highlight-region" cx="304" cy="250" rx="44" ry="24"/>
+    <path class="as-outline" d="M264 236 L344 232 L350 264 L258 268 Z"/>
+    <circle class="as-hotspot" cx="304" cy="250" r="7"/>
+    <circle class="as-hotspot-ring" cx="304" cy="250" r="14"/>
+  </g>
+  <g id="thigh-plank-top-f1" class="as-component" data-component="thigh-plank-top-f1">
+    <ellipse class="as-highlight-region" cx="440" cy="260" rx="44" ry="26"/>
+    <path class="as-outline" d="M400 244 L480 240 L486 276 L394 280 Z"/>
+    <circle class="as-hotspot" cx="440" cy="260" r="7"/>
+    <circle class="as-hotspot-ring" cx="440" cy="260" r="14"/>
+  </g>
+  <g id="head-plank-top" class="as-component" data-component="head-plank-top">
+    <ellipse class="as-highlight-region" cx="224" cy="70" rx="40" ry="28"/>
+    <path class="as-outline" d="M188 54 L260 50 L266 86 L182 90 Z"/>
+    <circle class="as-hotspot" cx="224" cy="70" r="7"/>
+    <circle class="as-hotspot-ring" cx="224" cy="70" r="14"/>
+  </g>
+</svg>

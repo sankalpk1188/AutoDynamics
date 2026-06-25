@@ -1,0 +1,260 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon-agencyo";
+    src: url("../fonts/flaticon-agencyobb65.woff2?1f87c7140e14b1ba171c1c36d6eae34d") format("woff2"),
+url("../fonts/flaticon-agencyobb65.woff?1f87c7140e14b1ba171c1c36d6eae34d") format("woff"),
+url("../fonts/flaticon-agencyobb65.eot?1f87c7140e14b1ba171c1c36d6eae34d#iefix") format("embedded-opentype"),
+url("../fonts/flaticon-agencyobb65.ttf?1f87c7140e14b1ba171c1c36d6eae34d") format("truetype"),
+url("../fonts/flaticon-agencyobb65.svg?1f87c7140e14b1ba171c1c36d6eae34d#flaticon-agencyo") format("svg")
+}
+
+i[class^="flaticon-agencyo-"]:before, i[class*=" flaticon-agencyo-"]:before {
+    font-family: flaticon-agencyo !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-agencyo-modeling:before {
+    content: "\f101";
+}
+.flaticon-agencyo-money:before {
+    content: "\f102";
+}
+.flaticon-agencyo-performance-review:before {
+    content: "\f103";
+}
+.flaticon-agencyo-meeting:before {
+    content: "\f104";
+}
+.flaticon-agencyo-goals:before {
+    content: "\f105";
+}
+.flaticon-agencyo-financial-advisor:before {
+    content: "\f106";
+}
+.flaticon-agencyo-darts:before {
+    content: "\f107";
+}
+.flaticon-agencyo-project-launch:before {
+    content: "\f108";
+}
+.flaticon-agencyo-bar-chart:before {
+    content: "\f109";
+}
+.flaticon-agencyo-verified:before {
+    content: "\f10a";
+}
+.flaticon-agencyo-costumer:before {
+    content: "\f10b";
+}
+.flaticon-agencyo-customer-care:before {
+    content: "\f10c";
+}
+.flaticon-agencyo-insurance:before {
+    content: "\f10d";
+}
+.flaticon-agencyo-insurance-1:before {
+    content: "\f10e";
+}
+.flaticon-agencyo-insurance-2:before {
+    content: "\f10f";
+}
+.flaticon-agencyo-insurance-3:before {
+    content: "\f110";
+}
+.flaticon-agencyo-insurance-4:before {
+    content: "\f111";
+}
+.flaticon-agencyo-property-insurance:before {
+    content: "\f112";
+}
+.flaticon-agencyo-target-market:before {
+    content: "\f113";
+}
+.flaticon-agencyo-target:before {
+    content: "\f114";
+}
+.flaticon-agencyo-product-development:before {
+    content: "\f115";
+}
+.flaticon-agencyo-rocket:before {
+    content: "\f116";
+}
+.flaticon-agencyo-tax-consultant:before {
+    content: "\f117";
+}
+.flaticon-agencyo-tax:before {
+    content: "\f118";
+}
+.flaticon-agencyo-pie-chart:before {
+    content: "\f119";
+}
+.flaticon-agencyo-growth:before {
+    content: "\f11a";
+}
+.flaticon-agencyo-tax-1:before {
+    content: "\f11b";
+}
+.flaticon-agencyo-money-bag:before {
+    content: "\f11c";
+}
+.flaticon-agencyo-taxation:before {
+    content: "\f11d";
+}
+.flaticon-agencyo-interest-rate:before {
+    content: "\f11e";
+}
+.flaticon-agencyo-investment:before {
+    content: "\f11f";
+}
+.flaticon-agencyo-investment-1:before {
+    content: "\f120";
+}
+.flaticon-agencyo-costumer-1:before {
+    content: "\f121";
+}
+.flaticon-agencyo-start-up:before {
+    content: "\f122";
+}
+.flaticon-agencyo-trophy:before {
+    content: "\f123";
+}
+.flaticon-agencyo-modeling-1:before {
+    content: "\f124";
+}
+.flaticon-agencyo-travel-agency:before {
+    content: "\f125";
+}
+.flaticon-agencyo-rocket-1:before {
+    content: "\f126";
+}
+.flaticon-agencyo-briefcase:before {
+    content: "\f127";
+}
+.flaticon-agencyo-graduation:before {
+    content: "\f128";
+}
+.flaticon-agencyo-mission:before {
+    content: "\f129";
+}
+.flaticon-agencyo-no-charges:before {
+    content: "\f12a";
+}
+.flaticon-agencyo-customer-service:before {
+    content: "\f12b";
+}
+.flaticon-agencyo-megaphone:before {
+    content: "\f12c";
+}
+.flaticon-agencyo-taxes:before {
+    content: "\f12d";
+}
+.flaticon-agencyo-passport:before {
+    content: "\f12e";
+}
+.flaticon-agencyo-passport-1:before {
+    content: "\f12f";
+}
+.flaticon-agencyo-approved:before {
+    content: "\f130";
+}
+.flaticon-agencyo-luggage:before {
+    content: "\f131";
+}
+.flaticon-agencyo-business-trip:before {
+    content: "\f132";
+}
+.flaticon-agencyo-communication:before {
+    content: "\f133";
+}
+.flaticon-agencyo-document:before {
+    content: "\f134";
+}
+.flaticon-agencyo-visa:before {
+    content: "\f135";
+}
+.flaticon-agencyo-passport-2:before {
+    content: "\f136";
+}
+.flaticon-agencyo-achievement:before {
+    content: "\f137";
+}
+.flaticon-agencyo-vision:before {
+    content: "\f138";
+}
+.flaticon-agencyo-analytics:before {
+    content: "\f139";
+}
+.flaticon-agencyo-data-access:before {
+    content: "\f13a";
+}
+.flaticon-agencyo-enterprise-architecture:before {
+    content: "\f13b";
+}
+.flaticon-agencyo-analysis:before {
+    content: "\f13c";
+}
+.flaticon-agencyo-search-chart:before {
+    content: "\f13d";
+}
+.flaticon-agencyo-data-science:before {
+    content: "\f13e";
+}
+.flaticon-agencyo-software:before {
+    content: "\f13f";
+}
+.flaticon-agencyo-innovation:before {
+    content: "\f140";
+}
+.flaticon-agencyo-cyber-security:before {
+    content: "\f141";
+}
+.flaticon-agencyo-layers:before {
+    content: "\f142";
+}
+.flaticon-agencyo-backup:before {
+    content: "\f143";
+}
+.flaticon-agencyo-customer-service-1:before {
+    content: "\f144";
+}
+.flaticon-agencyo-mission-accomplished:before {
+    content: "\f145";
+}
+.flaticon-agencyo-target-1:before {
+    content: "\f146";
+}
+.flaticon-agencyo-asterisk:before {
+    content: "\f147";
+}
+.flaticon-agencyo-curve:before {
+    content: "\f148";
+}
+.flaticon-agencyo-graphic-design:before {
+    content: "\f149";
+}
+.flaticon-agencyo-cloud-application:before {
+    content: "\f14a";
+}
+.flaticon-agencyo-layer:before {
+    content: "\f14b";
+}
+.flaticon-agencyo-email-marketing:before {
+    content: "\f14c";
+}
+

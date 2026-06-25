@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="as-highlight-underbody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5ec8ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0082c6" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="as-glow-underbody" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g id="vehicle-base" opacity="0.35">
+    <path fill="none" stroke="#3d5a73" stroke-width="1.2" d="M80 180 L140 160 L240 150 L400 145 L560 150 L660 165 L740 190 L750 250 L720 310 L600 340 L400 350 L200 345 L100 320 L70 250 Z"/>
+    <path fill="none" stroke="#2a4560" stroke-width="0.7" d="M200 160 L200 340 M400 145 L400 350 M600 165 L600 338"/>
+    <rect fill="none" stroke="#2a4560" stroke-width="0.8" x="300" y="200" width="200" height="100" rx="8"/>
+    <ellipse fill="none" stroke="#2a4560" stroke-width="0.8" cx="180" cy="330" rx="45" ry="30"/>
+    <ellipse fill="none" stroke="#2a4560" stroke-width="0.8" cx="620" cy="330" rx="45" ry="30"/>
+  </g>
+  <g id="rr-carrier-plate" class="as-component" data-component="rr-carrier-plate">
+    <ellipse class="as-highlight-region" cx="608" cy="260" rx="42" ry="28"/>
+    <path class="as-outline" d="M570 244 L646 240 L652 276 L564 280 Z"/>
+    <circle class="as-hotspot" cx="608" cy="260" r="7"/>
+    <circle class="as-hotspot-ring" cx="608" cy="260" r="14"/>
+  </g>
+  <g id="front-end-carrier-s220" class="as-component" data-component="front-end-carrier-s220">
+    <ellipse class="as-highlight-region" cx="96" cy="250" rx="36" ry="48"/>
+    <path class="as-outline" d="M72 208 L120 204 L126 296 L66 300 Z"/>
+    <circle class="as-hotspot" cx="96" cy="250" r="7"/>
+    <circle class="as-hotspot-ring" cx="96" cy="250" r="14"/>
+  </g>
+  <g id="ccb-bracket" class="as-component" data-component="ccb-bracket">
+    <ellipse class="as-highlight-region" cx="400" cy="226" rx="52" ry="30"/>
+    <path class="as-outline" d="M352 210 L448 206 L454 242 L346 246 Z"/>
+    <circle class="as-hotspot" cx="400" cy="226" r="7"/>
+    <circle class="as-hotspot-ring" cx="400" cy="226" r="14"/>
+  </g>
+  <g id="ev-frunk" class="as-component" data-component="ev-frunk">
+    <ellipse class="as-highlight-region" cx="248" cy="228" rx="48" ry="32"/>
+    <path class="as-outline" d="M204 212 L292 206 L298 244 L198 250 Z"/>
+    <circle class="as-hotspot" cx="248" cy="228" r="7"/>
+    <circle class="as-hotspot-ring" cx="248" cy="228" r="14"/>
+  </g>
+  <g id="tamor-top-cover" class="as-component" data-component="tamor-top-cover">
+    <ellipse class="as-highlight-region" cx="400" cy="280" rx="60" ry="34"/>
+    <path class="as-outline" d="M344 256 L456 250 L462 304 L338 310 Z"/>
+    <circle class="as-hotspot" cx="400" cy="280" r="7"/>
+    <circle class="as-hotspot-ring" cx="400" cy="280" r="14"/>
+  </g>
+  <g id="battery-holder-592" class="as-component" data-component="battery-holder-592">
+    <ellipse class="as-highlight-region" cx="400" cy="330" rx="54" ry="28"/>
+    <path class="as-outline" d="M350 316 L450 312 L456 344 L344 348 Z"/>
+    <circle class="as-hotspot" cx="400" cy="330" r="7"/>
+    <circle class="as-hotspot-ring" cx="400" cy="330" r="14"/>
+  </g>
+</svg>
