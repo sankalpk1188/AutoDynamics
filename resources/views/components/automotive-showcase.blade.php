@@ -7,7 +7,7 @@
         $vehicleImages[$key] = asset($path);
     }
     $showcaseData['vehicleImages'] = $vehicleImages;
-    $showcaseAssetVer = '20260630';
+    $showcaseAssetVer = '20260703b';
     $svgBase = asset('assets/svg/');
     if (!str_ends_with($svgBase, '/')) {
         $svgBase .= '/';

@@ -96,6 +96,16 @@ return [
         'name' => env('MAIL_FROM_NAME', 'Example'),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Client enquiry notifications (contact, upload design, careers, etc.)
+    |--------------------------------------------------------------------------
+    |
+    | Comma-separated list — every address receives admin copies of client forms.
+    | Example: ENQUIRY_ADMIN_EMAIL=one@company.com,two@company.com,three@company.com
+    |
+    */
+
     'enquiry_to' => env('ENQUIRY_ADMIN_EMAIL', env('MAIL_USERNAME', 'sankalp@ycstech.in')),
 
     /*

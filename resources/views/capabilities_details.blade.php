@@ -1,7 +1,7 @@
 @extends('layouts/frontLayout/front_design')
 
 @section('styles')
-<link rel="stylesheet" href="{{ asset('assets/css/automotive-showcase.css') }}?v=20260630">
+<link rel="stylesheet" href="{{ asset('assets/css/automotive-showcase.css') }}?v=20260703b">
 @endsection
 
 @section('content')
@@ -32,5 +32,5 @@
 
 @section('scripts')
 <script src="{{ asset('assets/js/ScrollToPlugin.min.js') }}"></script>
-<script src="{{ asset('assets/js/automotive-showcase.js') }}?v=20260630"></script>
+<script src="{{ asset('assets/js/automotive-showcase.js') }}?v=20260703b"></script>
 @endsection

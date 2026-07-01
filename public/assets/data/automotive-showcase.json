@@ -5,9 +5,9 @@
     "lead": "Scroll to explore interior, exterior, and underbody applications — engineered for lightweight performance and production readiness."
   },
   "categories": [
-    { "id": "interior", "label": "Interior", "summary": "Door trim, tailgate, and center-console modules." },
-    { "id": "exterior", "label": "Exterior", "summary": "Impact systems, ducts, and running-board applications." },
-    { "id": "underbody", "label": "Underbody", "summary": "Carriers, battery systems, and underfloor structures." }
+    { "id": "interior", "label": "Interior", "summary": "Door trim, tailgate, carrier plates, and center-console modules." },
+    { "id": "exterior", "label": "Exterior", "summary": "Footstep, door claddings, pillar trim, ducts, and roof systems." },
+    { "id": "underbody", "label": "Underbody", "summary": "FES, crash beam, EV frunk, battery tray, and underfloor structures." }
   ],
   "vehicleImages": {
     "interior": "assets/images/automotive/automotive-interior-hero.png",
@@ -22,7 +22,7 @@
       "componentId": null,
       "title": "Interior",
       "name": "Cabin structural modules",
-      "description": "Explore injection-molded interior structures — door trim, tailgate lining, and center-console architectures engineered for stiffness, fit, and high-volume manufacturing.",
+      "description": "Explore injection-molded interior structures — door trim, tailgate lining, carrier plates, and center-console architectures engineered for stiffness, fit, and high-volume manufacturing.",
       "productImage": "assets/images/automotive/products/product-front-door.png",
       "svg": "interior",
       "camera": { "scale": 1, "x": 0, "y": 0 },
@@ -39,8 +39,22 @@
       "location": "Driver-side front door — interior trim panel",
       "productImage": "assets/images/automotive/products/product-front-door.png",
       "svg": "interior",
-      "camera": { "scale": 1.06, "x": -2, "y": 0 },
+      "camera": { "scale": 1.08, "x": 8, "y": 2 },
       "highlights": ["front-door"]
+    },
+    {
+      "id": "back-door",
+      "category": "interior",
+      "type": "component",
+      "componentId": "back-door",
+      "title": "Interior",
+      "name": "RR Carrier Plate",
+      "description": "Rear door carrier plate with integrated mounting features and structural ribbing for window regulator and trim module integration.",
+      "location": "Rear door — interior carrier plate module",
+      "productImage": "assets/images/automotive/products/product-rr-carrier-plate.png",
+      "svg": "interior",
+      "camera": { "scale": 1.08, "x": 2, "y": 1 },
+      "highlights": ["back-door"]
     },
     {
       "id": "tail-gate",
@@ -91,7 +105,7 @@
       "componentId": null,
       "title": "Exterior",
       "name": "Body & closure systems",
-      "description": "Front impact, HVAC ducting, footstep, and powertrain-adjacent modules — metal-to-plastic conversion with validated crash and durability performance.",
+      "description": "Front impact, HVAC ducting, footstep, door claddings, pillar trim, and roof modules — metal-to-plastic conversion with validated crash and durability performance.",
       "productImage": "assets/images/automotive/products/product-footstep.png",
       "svg": "exterior",
       "camera": { "scale": 1, "x": 0, "y": 0 },
@@ -140,31 +154,59 @@
       "highlights": ["sun-roof"]
     },
     {
+      "id": "bc-pillar-trim-mic",
+      "category": "exterior",
+      "type": "component",
+      "componentId": "bc-pillar-trim-mic",
+      "title": "Exterior",
+      "name": "B & C Pillar Trim MIC",
+      "description": "Molded-in-color B- and C-pillar trim MIC on the door-glass verticals — black vertical trim panels between front and rear door windows for sealing, NVH, and exterior styling.",
+      "location": "Side body — B- and C-pillar vertical trim at door glass (black MIC panels)",
+      "productImage": "assets/images/automotive/products/product-b-pillar.png",
+      "svg": "exterior",
+      "camera": { "scale": 1.1, "x": -5, "y": -3 },
+      "highlights": ["bc-pillar-trim-mic"]
+    },
+    {
+      "id": "door-claddings",
+      "category": "exterior",
+      "type": "component",
+      "componentId": "door-claddings",
+      "title": "Exterior",
+      "name": "Door Claddings",
+      "description": "Exterior lower-door cladding panels mounted above the footstep — protective trim bridging the door outer surface and rocker zone.",
+      "location": "Side doors — lower exterior panel, directly above footstep",
+      "productImage": "assets/images/automotive/products/product-footstep-base-plate.png",
+      "svg": "exterior",
+      "camera": { "scale": 1.08, "x": -2, "y": 1 },
+      "highlights": ["door-claddings"]
+    },
+    {
       "id": "underbody-overview",
       "category": "underbody",
       "type": "overview",
       "componentId": null,
       "title": "Underbody",
       "name": "Structural underfloor assemblies",
-      "description": "Carrier plates, battery enclosure components, and semi-structural underbody modules for EV and ICE platforms.",
+      "description": "Front end structure, crash beam, EV frunk, battery tray, and underfloor modules for EV and ICE platforms.",
       "productImage": "assets/images/automotive/products/product-front-end-carrier-s220.png",
       "svg": "underbody",
       "camera": { "scale": 1, "x": 0, "y": 0 },
       "highlights": []
     },
     {
-      "id": "rr-carrier-plate",
+      "id": "crash-beam",
       "category": "underbody",
       "type": "component",
-      "componentId": "rr-carrier-plate",
+      "componentId": "crash-beam",
       "title": "Underbody",
-      "name": "RR Carrier Plate",
-      "description": "Rear-right carrier plate with integrated mounting features and structural ribbing for rear underbody load paths.",
-      "location": "Rear underbody — carrier plate zone",
-      "productImage": "assets/images/automotive/products/product-rr-carrier-plate.png",
+      "name": "Crash Beam",
+      "description": "Front crash beam integrated at the leading face of the vehicle — mounted ahead of the front end structure (FES) for impact energy management.",
+      "location": "Front underbody — forward of FES, front crash zone",
+      "productImage": "assets/images/automotive/products/product-front-impact-beam.png",
       "svg": "underbody",
-      "camera": { "scale": 1.1, "x": 4, "y": 0 },
-      "highlights": ["rr-carrier-plate"]
+      "camera": { "scale": 1.12, "x": 6, "y": 3 },
+      "highlights": ["crash-beam"]
     },
     {
       "id": "ccb-bracket",
@@ -193,6 +235,20 @@
       "svg": "underbody",
       "camera": { "scale": 1.1, "x": -2, "y": -1 },
       "highlights": ["ev-frunk"]
+    },
+    {
+      "id": "battery-tray",
+      "category": "underbody",
+      "type": "component",
+      "componentId": "battery-tray",
+      "title": "Underbody",
+      "name": "Battery Tray",
+      "description": "EV battery tray module along the side of the frunk zone — underfloor pack enclosure with structural retention for battery systems.",
+      "location": "Side underbody — adjacent to EV frunk, battery pack zone",
+      "productImage": "assets/images/automotive/products/product-battery-tray.png",
+      "svg": "underbody",
+      "camera": { "scale": 1.1, "x": 0, "y": -1 },
+      "highlights": ["battery-tray"]
     },
     {
       "id": "front-end-carrier-s220",

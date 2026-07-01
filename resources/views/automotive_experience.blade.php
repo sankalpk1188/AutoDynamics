@@ -5,43 +5,47 @@
     $pdir = 'assets/images/automotive/products/';
     $autoPlaceholderImg = asset('assets/images/metal_inner_structure_of_an_automotive_tailgate.png');
 
-    /* Exterior — 6 numbered regions (includes steering). */
+    /* Exterior — footstep, ducts, roof, pillar trim, and door claddings. */
     $autoProductsExterior = [
-        ['title' => 'Tail Door Inner', 'text' => 'Rear closure inner structure engineered for lightweight performance and high stiffness.', 'location' => 'Rear area — tailgate inner structure', 'img' => asset($pdir . 'product-tail-gate.png')],
-        ['title' => 'B-Pillar Reinforcement', 'text' => 'Critical side-impact load path balancing crash safety and manufacturability.', 'location' => 'Center body side — B-pillar zone', 'img' => asset($pdir . 'product-b-pillar.png')],
-        ['title' => 'Seat Pan Module', 'text' => 'Load-bearing seat base architecture tuned for durability and mounting stability.', 'location' => 'Cabin floor — seat support zone', 'img' => asset($pdir . 'product-seat-pan.png')],
-        ['title' => 'Battery Tray System', 'text' => 'EV-ready battery enclosure architecture addressing thermal and structural demands.', 'location' => 'Lower front-mid section — battery tray zone', 'img' => asset($pdir . 'product-battery-tray.png')],
-        ['title' => 'Front End Carrier', 'text' => 'Front structural carrier for integration of modules and assembly simplification.', 'location' => 'Front section — front end module zone', 'img' => asset($pdir . 'product-fes.png')],
-        ['title' => 'Steering Wheel Assembly', 'text' => 'Structural steering wheel armature: hub, spokes, and column interfaces engineered for high stiffness and lightweight performance.', 'location' => 'Cabin — steering column & driver controls', 'img' => asset($pdir . 'product-steering-wheel.png')],
+        ['title' => 'Footstep', 'text' => 'Exterior side footstep / running board providing convenient ingress–egress and protecting lower rocker areas.', 'location' => 'Side sill — below doors, passenger entry zone', 'img' => asset($pdir . 'product-footstep.png')],
+        ['title' => 'Plenum Applique', 'text' => 'Lightweight plenum applique module at the cowl and windshield base — integrated styling and airflow management.', 'location' => 'Cowl / IP upper — base of windshield', 'img' => asset($pdir . 'product-defrost-duct.png')],
+        ['title' => 'Sun Roof', 'text' => 'Lightweight sun roof module engineered for structural performance, sealing, and integration with the roof panel assembly.', 'location' => 'Roof — upper vehicle body', 'img' => asset($pdir . 'product-defrost-duct.png')],
+        ['title' => 'B & C Pillar Trim MIC', 'text' => 'Molded-in-color B- and C-pillar trim MIC on the door-glass verticals — black vertical trim panels between front and rear door windows for sealing, NVH, and exterior styling.', 'location' => 'Side body — B- and C-pillar vertical trim at door glass (black MIC panels)', 'img' => asset($pdir . 'product-b-pillar.png')],
+        ['title' => 'Door Claddings', 'text' => 'Exterior lower-door cladding panels mounted above the footstep — protective trim bridging the door outer surface and rocker zone.', 'location' => 'Side doors — lower exterior panel, directly above footstep', 'img' => asset($pdir . 'product-footstep-base-plate.png')],
     ];
 
-    /* Interior — 4 wheeler cabin modules. */
+    /* Interior — door trim, carrier plate, tailgate, and console modules. */
     $autoProductsInterior = [
         ['title' => 'Front Door', 'text' => 'Interior door panel for four-wheeler applications — integrated trim, armrest, speaker grille, and map pocket with multi-material molding.', 'location' => 'Driver-side front door — interior trim panel', 'img' => asset($pdir . 'product-front-door.png')],
+        ['title' => 'RR Carrier Plate', 'text' => 'Rear door carrier plate with integrated mounting features and structural ribbing for window regulator and trim module integration.', 'location' => 'Rear door — interior carrier plate module', 'img' => asset($pdir . 'product-rr-carrier-plate.png')],
         ['title' => 'Tail Gate', 'text' => 'Interior tailgate trim for four-wheeler rear closure — upper housing, handle zone, and lower insert interfaces.', 'location' => 'Rear hatch — interior lining (tailgate open)', 'img' => asset($pdir . 'product-tail-gate-interior.png')],
         ['title' => 'Console Structure', 'text' => 'Structural center-console backbone with reinforcement ribbing, mounting points, and tunnel integration for shifter and storage.', 'location' => 'Center tunnel — between front seats', 'img' => asset($pdir . 'product-console-structure.png')],
         ['title' => 'Console Back Cover', 'text' => 'Rear console closure panel with vent slots and cubby openings — interfaces between front and rear cabin.', 'location' => 'Center console — rear face toward second row', 'img' => asset($pdir . 'product-console-back-cover.png')],
     ];
 
-    /* Underbody — placeholder parts (replace images & copy when provided). */
+    /* Underbody — FES, crash beam, EV frunk, battery tray, and underfloor modules. */
     $autoProductsUnderbody = [
-        ['title' => 'Battery Tray System', 'text' => 'EV-ready battery enclosure architecture addressing thermal and structural demands.', 'location' => 'Underfloor — battery pack zone', 'img' => asset($pdir . 'product-battery-tray.png')],
-        ['title' => 'Front Subframe', 'text' => 'Front axle and powertrain mounting structure for NVH isolation and crash load paths.', 'location' => 'Underbody front — suspension pickup points', 'img' => asset($pdir . 'product-front-subframe.png')],
-        ['title' => 'Floor Pan Assembly', 'text' => 'Central underbody structural floor integrating cross-members and tunnel reinforcement.', 'location' => 'Underbody center — floor pan zone', 'img' => asset($pdir . 'product-floor-pan.png')],
-        ['title' => 'Rear Axle Carrier', 'text' => 'Rear suspension and driveline mounting architecture for stiffness and packaging.', 'location' => 'Underbody rear — axle carrier zone', 'img' => asset($pdir . 'product-rear-axle.png')],
+        ['title' => 'Crash Beam', 'text' => 'Front crash beam integrated at the leading face of the vehicle — mounted ahead of the front end structure (FES) for impact energy management.', 'location' => 'Front underbody — forward of FES, front crash zone', 'img' => asset($pdir . 'product-front-impact-beam.png')],
+        ['title' => 'CCB Bracket', 'text' => 'CCB bracket at the cockpit cross-car beam — reinforced mounting for steering and dashboard module integration.', 'location' => 'Center underbody — dashboard / cockpit beam zone', 'img' => asset($pdir . 'product-steering-wheel.png')],
+        ['title' => 'EV Frunk', 'text' => 'EV front trunk (frunk) structural module — lightweight underhood storage enclosure with integrated mounting and sealing interfaces.', 'location' => 'Front underbody — EV frunk / front storage bay', 'img' => asset($pdir . 'product-fes.png')],
+        ['title' => 'Battery Tray', 'text' => 'EV battery tray module along the side of the frunk zone — underfloor pack enclosure with structural retention for battery systems.', 'location' => 'Side underbody — adjacent to EV frunk, battery pack zone', 'img' => asset($pdir . 'product-battery-tray.png')],
+        ['title' => 'Front End Structure (FES)', 'text' => 'Front end structure (FES) — primary front carrier frame for crash load management and front-module mounting.', 'location' => 'Front end — vertical carrier frame', 'img' => asset($pdir . 'product-front-end-carrier-s220.png')],
+        ['title' => 'Battery Top Cover', 'text' => 'Battery top cover — sealed underfloor cover with raised sections for pack clearance and thermal management.', 'location' => 'Center underbody — battery top cover', 'img' => asset($pdir . 'product-tamor-top-cover.png')],
+        ['title' => 'Battery Cell Holder', 'text' => 'Battery cell holder — honeycomb-grid retention structure with standoffs for secure battery pack mounting.', 'location' => 'Center underbody — beneath battery top cover', 'img' => asset($pdir . 'product-battery-holder-592.png')],
     ];
 
     $autoTabs = [
         'interior' => [
             'label' => 'Interior',
-            'desc' => 'Door trim, tailgate, and center-console modules.',
+            'desc' => 'Door trim, tailgate, carrier plates, and center-console modules.',
             'image' => asset('assets/images/automotive/automotive-interior-hero.png'),
-            'image_alt' => 'Four-wheeler interior view with front door, tailgate, and console applications highlighted',
+            'image_alt' => 'Four-wheeler interior view with front door, RR carrier plate, tailgate, and console applications highlighted',
             'overlay' => 'exterior',
             'flip_x' => false,
             'products' => $autoProductsInterior,
             'points' => [
-                ['x' => 22, 'y' => 38],
+                ['x' => 84, 'y' => 48],
+                ['x' => 30, 'y' => 48],
                 ['x' => 70, 'y' => 20],
                 ['x' => 46, 'y' => 50],
                 ['x' => 50, 'y' => 58],
@@ -49,34 +53,36 @@
         ],
         'exterior' => [
             'label' => 'Exterior',
-            'desc' => 'Body-in-white closures, pillars, and front-end systems.',
-            'image' => asset('assets/images/automotive-colored-parts.png'),
-            'image_alt' => 'Exterior vehicle with coloured structural highlights and numbered points',
+            'desc' => 'Footstep, door claddings, pillar trim, ducts, and roof systems.',
+            'image' => asset('assets/images/automotive/automotive-exterior-hero.png'),
+            'image_alt' => 'Exterior vehicle with footstep, door claddings, pillar trim, and roof applications highlighted',
             'overlay' => 'exterior',
             'flip_x' => true,
             'products' => $autoProductsExterior,
             'points' => [
-                ['x' => 20, 'y' => 20],
-                ['x' => 40, 'y' => 24],
-                ['x' => 53, 'y' => 54],
-                ['x' => 72, 'y' => 60],
-                ['x' => 80, 'y' => 50],
-                ['x' => 48, 'y' => 36],
+                ['x' => 72, 'y' => 68],
+                ['x' => 38, 'y' => 38],
+                ['x' => 50, 'y' => 14],
+                ['x' => 74, 'y' => 33],
+                ['x' => 69, 'y' => 60],
             ],
         ],
         'underbody' => [
             'label' => 'Underbody',
-            'desc' => 'Floor, battery, and chassis structural assemblies.',
-            'image' => asset('assets/images/automotive-external-view.png'),
-            'image_alt' => 'Vehicle underbody structural view with application points',
+            'desc' => 'FES, crash beam, EV frunk, battery tray, and underfloor structures.',
+            'image' => asset('assets/images/automotive/automotive-underbody-hero.png'),
+            'image_alt' => 'Vehicle underbody with crash beam, EV frunk, battery tray, and FES applications highlighted',
             'overlay' => 'exterior',
             'flip_x' => false,
             'products' => $autoProductsUnderbody,
             'points' => [
-                ['x' => 48, 'y' => 52],
-                ['x' => 28, 'y' => 38],
-                ['x' => 55, 'y' => 62],
-                ['x' => 72, 'y' => 45],
+                ['x' => 85, 'y' => 68],
+                ['x' => 50, 'y' => 45],
+                ['x' => 69, 'y' => 46],
+                ['x' => 60, 'y' => 52],
+                ['x' => 88, 'y' => 50],
+                ['x' => 50, 'y' => 56],
+                ['x' => 50, 'y' => 66],
             ],
         ],
     ];

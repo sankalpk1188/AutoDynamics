@@ -17,11 +17,18 @@
     <ellipse fill="none" stroke="#2a4560" stroke-width="0.8" cx="200" cy="350" rx="50" ry="32"/>
   </g>
   <g id="front-door" class="as-component" data-component="front-door">
-    <ellipse class="as-highlight-region" cx="208" cy="210" rx="52" ry="42"/>
-    <path class="as-outline" d="M168 175 L248 168 L255 245 L162 252 Z"/>
-    <line class="as-connector" x1="208" y1="210" x2="130" y2="210"/>
-    <circle class="as-hotspot" cx="208" cy="210" r="7"/>
-    <circle class="as-hotspot-ring" cx="208" cy="210" r="14"/>
+    <ellipse class="as-highlight-region" cx="128" cy="242" rx="44" ry="52"/>
+    <path class="as-outline" d="M94 182 L184 172 L194 302 L98 310 Z"/>
+    <line class="as-connector" x1="128" y1="242" x2="230" y2="242"/>
+    <circle class="as-hotspot" cx="128" cy="242" r="7"/>
+    <circle class="as-hotspot-ring" cx="128" cy="242" r="14"/>
+  </g>
+  <g id="back-door" class="as-component" data-component="back-door">
+    <ellipse class="as-highlight-region" cx="278" cy="268" rx="48" ry="40"/>
+    <path class="as-outline" d="M238 232 L318 226 L325 304 L232 310 Z"/>
+    <line class="as-connector" x1="278" y1="268" x2="350" y2="268"/>
+    <circle class="as-hotspot" cx="278" cy="268" r="7"/>
+    <circle class="as-hotspot-ring" cx="278" cy="268" r="14"/>
   </g>
   <g id="tail-gate" class="as-component" data-component="tail-gate">
     <ellipse class="as-highlight-region" cx="656" cy="70" rx="48" ry="36"/>

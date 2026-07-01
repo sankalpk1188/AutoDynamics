@@ -16,11 +16,12 @@
     <ellipse fill="none" stroke="#2a4560" stroke-width="0.8" cx="180" cy="330" rx="45" ry="30"/>
     <ellipse fill="none" stroke="#2a4560" stroke-width="0.8" cx="620" cy="330" rx="45" ry="30"/>
   </g>
-  <g id="rr-carrier-plate" class="as-component" data-component="rr-carrier-plate">
-    <ellipse class="as-highlight-region" cx="608" cy="260" rx="42" ry="28"/>
-    <path class="as-outline" d="M570 244 L646 240 L652 276 L564 280 Z"/>
-    <circle class="as-hotspot" cx="608" cy="260" r="7"/>
-    <circle class="as-hotspot-ring" cx="608" cy="260" r="14"/>
+  <g id="crash-beam" class="as-component" data-component="crash-beam">
+    <ellipse class="as-highlight-region" cx="118" cy="338" rx="42" ry="14"/>
+    <path class="as-outline" d="M82 330 L154 326 L158 350 L78 354 Z"/>
+    <line class="as-connector" x1="118" y1="338" x2="185" y2="338"/>
+    <circle class="as-hotspot" cx="118" cy="338" r="7"/>
+    <circle class="as-hotspot-ring" cx="118" cy="338" r="14"/>
   </g>
   <g id="front-end-carrier-s220" class="as-component" data-component="front-end-carrier-s220">
     <ellipse class="as-highlight-region" cx="96" cy="250" rx="36" ry="48"/>
@@ -39,6 +40,13 @@
     <path class="as-outline" d="M204 212 L292 206 L298 244 L198 250 Z"/>
     <circle class="as-hotspot" cx="248" cy="228" r="7"/>
     <circle class="as-hotspot-ring" cx="248" cy="228" r="14"/>
+  </g>
+  <g id="battery-tray" class="as-component" data-component="battery-tray">
+    <ellipse class="as-highlight-region" cx="318" cy="262" rx="58" ry="24"/>
+    <path class="as-outline" d="M264 248 L372 244 L378 276 L258 280 Z"/>
+    <line class="as-connector" x1="318" y1="262" x2="390" y2="262"/>
+    <circle class="as-hotspot" cx="318" cy="262" r="7"/>
+    <circle class="as-hotspot-ring" cx="318" cy="262" r="14"/>
   </g>
   <g id="tamor-top-cover" class="as-component" data-component="tamor-top-cover">
     <ellipse class="as-highlight-region" cx="400" cy="280" rx="60" ry="34"/>

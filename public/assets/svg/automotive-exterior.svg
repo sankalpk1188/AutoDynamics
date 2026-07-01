@@ -38,4 +38,18 @@
     <circle class="as-hotspot" cx="402" cy="72" r="7"/>
     <circle class="as-hotspot-ring" cx="402" cy="72" r="14"/>
   </g>
+  <g id="bc-pillar-trim-mic" class="as-component" data-component="bc-pillar-trim-mic">
+    <ellipse class="as-highlight-region" cx="588" cy="166" rx="22" ry="54"/>
+    <path class="as-outline" d="M564 116 L612 112 L616 220 L560 224 Z"/>
+    <line class="as-connector" x1="588" y1="166" x2="655" y2="166"/>
+    <circle class="as-hotspot" cx="588" cy="166" r="7"/>
+    <circle class="as-hotspot-ring" cx="588" cy="166" r="14"/>
+  </g>
+  <g id="door-claddings" class="as-component" data-component="door-claddings">
+    <ellipse class="as-highlight-region" cx="548" cy="298" rx="56" ry="22"/>
+    <path class="as-outline" d="M496 284 L600 280 L604 312 L492 316 Z"/>
+    <line class="as-connector" x1="548" y1="298" x2="620" y2="298"/>
+    <circle class="as-hotspot" cx="548" cy="298" r="7"/>
+    <circle class="as-hotspot-ring" cx="548" cy="298" r="14"/>
+  </g>
 </svg>

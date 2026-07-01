@@ -132,7 +132,7 @@ class IndexController extends Controller
                 'updated_at' => $now,
             ]);
 
-            $to = EnquiryMailer::adminEmail();
+            $to = EnquiryMailer::adminEmails();
             $subject1 = 'Website contact: ' . str_replace(["\r", "\n"], '', $validatedData['subject']);
 
             EnquiryMailer::sendView('emails.contact_admin', [
@@ -266,7 +266,7 @@ class IndexController extends Controller
                 'status'             => 'pending',
             ]);
 
-            $adminTo = EnquiryMailer::adminEmail();
+            $adminTo = EnquiryMailer::adminEmails();
             $adminSubject = 'New design upload request — ' . str_replace(["\r", "\n"], '', $validatedData['company']);
 
             EnquiryMailer::sendView('emails.design_upload_admin', [
@@ -335,8 +335,8 @@ class IndexController extends Controller
                 'PAN Card' => $panFile,
             ]);
 
-            // Admin Email ID (Change this to the admin's email)
-            $adminEmail = "sankalp@ycstech.in";  
+            // Admin notification — all addresses in ENQUIRY_ADMIN_EMAIL (.env)
+            $adminEmail = EnquiryMailer::adminEmails();
 
             // Email Subject
             $subject = "New Distributor Enquiry from {$data['name']}";
@@ -354,7 +354,6 @@ class IndexController extends Controller
                 'panFile' => $panFile ? asset('assets/distributor/' . $panFile) : null,
             ];
 
-            // Send Email Using Laravel Mail
             Mail::send('emails.distributor_enquiry', $emailData, function ($message) use ($adminEmail, $subject) {
                 $message->to($adminEmail)->subject($subject);
             });
@@ -843,7 +842,7 @@ class IndexController extends Controller
                 DB::table('job_applications')->insert($payload);
             }
 
-            $to = ($job && !empty($job->email)) ? $job->email : EnquiryMailer::adminEmail();
+            $to = ($job && !empty($job->email)) ? $job->email : EnquiryMailer::adminEmails();
             $subject = 'New Job Application' . ($job ? ' - ' . $job->designation_name : '');
 
             $attachments = [];
