@@ -24,7 +24,20 @@ class EnquiryMailer
      */
     public static function adminEmails(): array
     {
-        $emails = self::normalizeRecipients(config('mail.enquiry_to', 'sankalp@ycstech.in'));
+        $emails = self::normalizeRecipients(config('mail.enquiry_to', ''));
+
+        $emails = array_values(array_filter($emails, function ($email) {
+            return !preg_match('/@(example\.com|test\.com|localhost)$/i', $email);
+        }));
+
+        if ($emails === []) {
+            $fallback = self::normalizeRecipients(config('mail.mailers.smtp.username', ''));
+            if ($fallback === []) {
+                $fallback = self::normalizeRecipients(config('mail.from.address', ''));
+            }
+
+            $emails = $fallback;
+        }
 
         return $emails ?: ['sankalp@ycstech.in'];
     }
